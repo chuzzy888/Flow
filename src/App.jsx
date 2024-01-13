@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css'
-import Esignatureapp from './Esignatureapp'
+import Upload from './Upload'
 
 function App() {
 
 
   return (
       <div>
-        <Esignatureapp/>
+        <Upload/>
       </div>
   )
 }
