@@ -1,15 +1,25 @@
 import React from 'react'
 import './App.css'
-import Upload from './Upload'
+import Menu from './components/Menu'
+import Homepage from './pages/Homepage'
+
 
 function App() {
 
 
   return (
-      <div>
-        <Upload/>
-      </div>
+    <div>
+      <Menu />
+      <Homepage/>
+    </div>
   )
 }
 
 export default App
+
+
+
+
+
+
+

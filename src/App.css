@@ -1,1 +1,25 @@
+.but{
+    background-color: orange;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+::placeholder{
+    font-size: x-small;
+}
+.but:hover{
+    background-color: rgb(228, 151, 9);
+    color: white;
+}
+.home-button{
+    background-color: orange;
+}
 
+.homepage-background {
+    background-image: url('./assets/images/img1.jpg'); /* Adjust path if necessary */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
