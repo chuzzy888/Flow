@@ -19,10 +19,10 @@ function Homepage() {
           <div className="absolute bottom-0 left-0 p-8">
             <h1 className='text-white text-2xl font-black'>Find your perfect home</h1>
             <p className="text-white mt-4">Discover the best home to {isRent ? 'rent' : 'buy'}, from luxury apartment to spacious family homes.</p>
-            <div className='flex justify-center items-center bg-white md:w-72 xs:w-64 p-2 mt-4'>
-              <CiSearch className='text-xl text-green-900' />
-              <input type="text" placeholder='Search address, city or Zip code' className='outline-none md:ml-2 ' />
-              <button className='p-1 px-2 home-button rounded-lg xs:text-xs md:text-sm font-medium ml-2 hover:bg-gray-500 hover:text-white '>Search</button>
+            <div className='flex justify-center items-center bg-white md:w-72 xs:w-64 p-2 mt-4 relative'>
+              <CiSearch className='text-xl text-green-900 mr-5' />
+              <input type="text" placeholder='Search address, city or Zip code' className='outline-none md:mr-8 ' />
+              <button className='p-1 px-2 home-button rounded-lg xs:text-xs md:text-sm font-medium ml-2 hover:bg-gray-500 hover:text-white absolute right-2'>Search</button>
             </div>
           </div>
         </div>
